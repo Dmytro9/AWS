@@ -1,1 +1,26 @@
-Amazon EC2
+Amazon EC2 - get up virtual servers (instances), (windows, linux in some region) in Amazon
+Elastic Load Balancer - balancer for requests
+AWS Elastic Beanstalk - get up app from zip ... ( install all balancer and son on and app works )
+Amazon CloudFront - for uploading caching static files
+Amazon CloudWatch - monitoring servers and infrastructure
+Amazon S3 - uploading diff bid files and storing (static files)
+Amazon Glacier - uploading diff bid files and storing (static files) in zip
+Amazon EFS - Amazon file system ( hard disc for connectiong to servers )
+AWS CloudFormation - describing infrastructure ( updating infrastructure )
+AWS OpsWorks - infrastructure ( recipie cheff )
+Amazon RDS - relation data system ( sql based db )
+Amazon DynamoDB - non sql based DynamoDB
+Amazon Redshift - analyse data
+Amazon EMR - big data
+IAM - identity access manager ( create users, permissions, roles )
+Amazon VPC - virtual privat cloud (  )
+Amazon Route 53 - dns server Amazon ( domain name, dns works on port 53 )
+Amazon SES - simple email services
+Amazon SNS - send emails, sms
+Amazon SQS - ... sms
+
+
+---- 
+Login
+----
+IAM - create users / groups ...
