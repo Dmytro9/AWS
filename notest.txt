@@ -24,3 +24,10 @@ Amazon SQS - ... sms
 Login
 ----
 IAM - create users / groups ...
+
+
+
+
+
+
+Firewall - soft ( give acces to something or not )
