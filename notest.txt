@@ -3,7 +3,7 @@ Elastic Load Balancer - balancer for requests
 AWS Elastic Beanstalk - get up app from zip ... ( install all balancer and son on and app works )
 Amazon CloudFront - for uploading caching static files
 Amazon CloudWatch - monitoring servers and infrastructure
-Amazon S3 - uploading diff bid files and storing (static files)
+Amazon S3 ( Simple Storage Service ) - uploading diff bid files and storing (static files)
 Amazon Glacier - uploading diff bid files and storing (static files) in zip
 Amazon EFS - Amazon file system ( hard disc for connectiong to servers )
 AWS CloudFormation - describing infrastructure ( updating infrastructure )
@@ -24,3 +24,15 @@ Amazon SQS - ... sms
 Login
 ----
 IAM - create users / groups ...
+
+
+// Configure CLI on remote instance
+aws configure <Access key ID>
+<Secret access key>
+<rankfurt>
+json
+
+
+
+// S3
+different storages with diff access to recources
