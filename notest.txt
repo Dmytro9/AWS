@@ -36,3 +36,15 @@ json
 
 // S3
 different storages with diff access to recources
+
+
+
+
+Firewall - soft ( give acces to something or not )
+
+
+// S3 bucket
+first - directory
+than - folder
+
+*Versioning - save copy earlier saved files (aka git)
