@@ -31,3 +31,10 @@ IAM - create users / groups ...
 
 
 Firewall - soft ( give acces to something or not )
+
+
+// S3 bucket
+first - directory
+than - folder
+
+*Versioning - save copy earlier saved files (aka git)
