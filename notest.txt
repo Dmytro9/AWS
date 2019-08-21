@@ -33,8 +33,59 @@ IAM - create users / groups ...
 Firewall - soft ( give acces to something or not )
 
 
-// S3 bucket
+// S3 bucket ( 5Gb free )
 first - directory
 than - folder
 
 *Versioning - save copy earlier saved files (aka git)
+*Cross replication ( backup from one bucket to another )
+
+* Logging ( save all logs (history-manipulation) of bucket)
+* Lifecycle - ex.: - pass file after 30 days to Glacier
+
+
+// INSTANCES
+* on demand ( on off )
+* reserved ( 1-3 year )
+
+- type of servers ( num proccessors, memory, t2.nano - t поколение )
+t - general purpose
+m - general purpose
+c - compute optimazed
+f - fpga optimazed   
+g,p - gpu optimaze
+x,r -ram memory optimazed
+d,i - storage optimazed
+
+EBS - Elastic Block Store - hard disks
+
+SSD ( GP@ ) up to 10.000 iops
+IOPS SSD (IO1) 20.000
+Magnetic
+others:
+ HDD (ST1)
+
+
+ // Bootstrapping ( all setting immediatly )
+ AWS CLI with EC2 ( on off inst from cli )
+ Roles for EC2
+ AMI - amazon mashine image
+
+ Launch Configuration + Auto Scaling Group ( розмножаться умирать )
+
+
+Instance - виртуальный сервер
+Volume - HDD/SDD disk
+
+Snapshot - резервная копия Volume
+
+AMI - резервная копия Instance
+
+AMI - Amazon Mashine Image
+
+
+change volume ( right click on disk )
+
+
+// Bootstrapping - Advanced details while creating instance ( insert script for lounch while instance is creating )
+
