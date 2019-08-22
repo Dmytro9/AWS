@@ -128,6 +128,7 @@ auto-scale groups - uses only one Lounch Configuration
 автоматизация создания и изменения инфраструктуры
 CloudFormation Stack - контейнер с созданными ресурсами
 CloudFormation Template - программный код контейнера - шаблон
+( creating VPC, subnets from code )
 
 
 // Roles to EC2, Users and others 
@@ -154,5 +155,37 @@ Nat Gateway
 Security Group - ( access ports, when creating instance )
 ...
 VPN Gateway
+
+
+VPC Peering - communication one VPC to another
+
+
+
+***************** Lambda Функции - Технология Serverless *****************
+aka some worker 
+
+start from: 
+ - AWS Management Cnsole
+ - AWS CLI
+ - API Gateway
+ - Events like S3 bucker data change, DunamoDB update
+
+ Steps: 
+  * create role IAM for Lambda
+
+
+
+
+  ***************** Route53 *****************
+ - регистрация домена и привязка к S3 или instances 
+ - 53 роут через который общается DNS
+  
+
+
+
+***************** CloudFront - CDN - Edge Locations *****************
+content delivery network
+cache of static files
+
 
 
