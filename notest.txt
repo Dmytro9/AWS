@@ -99,3 +99,60 @@ change volume ( right click on disk )
 
 // Bootstrapping - Advanced details while creating instance ( insert script for lounch while instance is creating )
 
+
+
+// Balancer
+
+
+// Auto-scale groups ( can be authomatic )
+vertical-scaling - ex.: from t2.micro - to c4.large ( more memory ) ( for web servers is not quit good )
+
+horizontal-scaling - creating another copy of Instance ( many - Auto-scale groups in diff availability group )
+
+automaticaly creates instance ( scaling out ) and than scaling in ( remove them )
+
+auto-scale groups - uses only one Lounch Configuration
+
+*Steps*
+- Create Launch Configuration ( as creating instance, possible from AMIs (image) )
+
+
+
+// ELASTIC API
+ Private IP - адресс доступный внутри сети ( НЕизменяемый )
+ Public IP - адресс доступный в интернете ( изменяемый )
+ Elastic IP - адресс доступный в интернете ( амазоновский ) ( НЕизменяемый, внешний ) - для создания постоянного внейшнего ip
+
+
+// CloudFormation - программирование инфраструктуры AWS as a code - IaaC
+автоматизация создания и изменения инфраструктуры
+CloudFormation Stack - контейнер с созданными ресурсами
+CloudFormation Template - программный код контейнера - шаблон
+
+
+// Roles to EC2, Users and others 
+create in IAM and attach to instance ( right click on instance ), user and so on
+ex.: role EC2 to create / read S3 bucket
+
+
+
+// Info about Instance
+from connected termonal to instance - curl http://169.254.169.254/latest/meta-data/
+
+
+//  Виртуальные Сети VPC - Virtual Private Cloud (aka cisco) ( internal network )
+Виртуальная сеть которую можна создать в амазоне
+
+VPC - CIDR blocks
+Public subnet -  ( part of vpc network ) all instances from this network has access to internet ( have public IP )
+Private subnet - servers lounched in private subnets do not have public IP  ( have access to internet from 'nadserver' )
+Database Subnet - private subnet without any internet access
+Route Table
+Internet Gateway
+Nat Gateway
+...
+Security Group - ( access ports, when creating instance )
+...
+VPN Gateway
+
+
